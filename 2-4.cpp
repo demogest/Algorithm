@@ -31,7 +31,7 @@ void solve(int l, int r)
         solve(j + 1, r);
     return;
 }
-/*
+
 int main()
 {
     cin >> n;
@@ -45,4 +45,3 @@ int main()
     printf("%d %d\n", val, num);
     return 0;
 }
-*/

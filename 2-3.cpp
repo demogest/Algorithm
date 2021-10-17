@@ -25,7 +25,8 @@ void QuickSort(vector<int> &nums, int l, int r)
         QuickSort(nums, l, mid - 1);
         QuickSort(nums, mid + 1, r);
     }
-}/*
+}
+
 int main(){
     vector<int> a;
     int n,k;
@@ -36,4 +37,3 @@ int main(){
         cout<<*it<<(*it == a[a.size()-1]?"\n":" ");
     return 0;
 }
-*/
